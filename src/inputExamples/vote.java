@@ -11,6 +11,7 @@ public class vote {
 		System.out.println("You voted... Type true or false");
 		vote = input.nextBoolean();
 		System.out.println("You Voted... " + vote);
+		input.close();
 	}
 
 }
