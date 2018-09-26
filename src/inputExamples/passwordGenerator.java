@@ -13,10 +13,19 @@ public class passwordGenerator {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter your first one digit number?");
 		num1 = input.nextInt();
+		while ((num1 < 0)||(num1 > 9)) {
+			   System.out.println("Please enter only one digit");
+			   num1 = input.nextInt(); }
 		System.out.println("Please enter your second one digit number?");
 		num2 = input.nextInt();
+		while ((num2 < 0)||(num2 > 9)) {
+			   System.out.println("Please enter only one digit");
+			   num2 = input.nextInt(); }
 		System.out.println("Please enter your third one digit number");
 		num3 = input.nextInt();
+		while ((num3 < 0)||(num3 > 9)) {
+			   System.out.println("Please enter only one digit");
+			   num3 = input.nextInt(); }
 		System.out.println("\n");
 		System.out.println("Possible Passwords:\n");
 		System.out.println(num1 + "" + num2 + "" + num3);
