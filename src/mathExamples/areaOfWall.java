@@ -9,10 +9,10 @@ public class areaOfWall {
 		double wallArea = -999.9;
 		Scanner input = new Scanner(System.in);
 		System.out.println("The wall is 8 feet tall?");
-		System.out.println("What is the width of thw wall (In feet)?");
+		System.out.println("What is the width of the wall (In feet)?");
 		wallArea = input.nextInt() * 8.0;
 		System.out.println("The area of the wall is " + wallArea + " square feet");
-
+		
 	}
 
 }
