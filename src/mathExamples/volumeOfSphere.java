@@ -15,7 +15,7 @@ public class volumeOfSphere {
 		System.out.println("What is the radius of the sphere (in inches)? (ex. 12.3)");
 		radius = input.nextDouble();
 		cubed = radius * radius * radius;
-		sphereVolume = fourThirds * cubed ;
+		sphereVolume = fourThirds * Math.PI * cubed ;
 		System.out.println("The volume of the sphere is " + sphereVolume + " cubic inches");
 		System.out.println(4.0 / 3.0);
 
